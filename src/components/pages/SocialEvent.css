@@ -1,0 +1,81 @@
+body {
+    /* background-color: #4e2605; */
+    /* background-image: url(../../../public/images/ksb-image.jpg); */
+}
+
+.social-event-container {
+    max-width: 2500px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    
+}
+
+
+.social-event-title {
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    /* display: flex; */
+    align-self: center;
+    padding: 16px;
+}
+
+.social-event-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.carousel-container {
+    width: 70%;
+    padding: 2%;
+}
+
+.event-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%; 
+    width: 55%;
+    padding: 1%;
+}
+
+.event-info > h1 {
+    font-size: 50px;
+    font-weight: 650;
+}
+.event-info > p {
+    padding-left: 5%;
+    font-size: 27px;
+    
+}
+
+@media screen and (max-width: 960px) {
+    
+    .social-event-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .social-event-content {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .event-info {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%
+    }
+
+    .event-info > p {
+        padding-left: 5%;
+        font-size: 22px;
+    }
+
+  }
