@@ -21,7 +21,7 @@ export default function AboutUs() {
                     <div className="left-person-description">
                         <h3>Swaraj Dhakar</h3>
                         <h5>President</h5>
-                        <p> Swaraj is a sophomore from Mumbai India, studying Marketing and Informatics. He hopes to get into consulting and eventually, go back to India and become a social entrepreneur.
+                        <p> Swaraj is a rising junior from Mumbai India, studying Marketing and Informatics. He hopes to get into consulting and eventually, go back to India and become a social entrepreneur.
                         </p>
                     </div>
                 </div>
@@ -30,8 +30,7 @@ export default function AboutUs() {
                     <div className="right-person-description">
                         <h3>Saachi Patil</h3>
                         <h5>Vice-President of Finance</h5>
-                        <p>Swaraj is currently a Sophomore studying Business and Management. He hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
-                            which specializes in cows and laptops.
+                        <p>Saachi is a rising junior from New Jersey majoring in Finance and Business Analytics. She hopes to work in investment banking and eventually start her own business.
                         </p>
                     </div>
                     <div className="right-person-pic">
@@ -48,7 +47,7 @@ export default function AboutUs() {
                         <h3>Pranav Vangari</h3>
                         <h5>Vice-President of Technology</h5>
                         <p>
-                            Pranav is currently a Sophomore from the Chicago suburbs, majoring in computer science and minoring in math and business. Pranav hopes to use his technical and business skills 
+                            Pranav is rising junior from the Chicago suburbs, majoring in computer science and minoring in math and business. Pranav hopes to use his technical and business skills 
                             to help companies manage products and services
                         </p>
                     </div>  
@@ -59,11 +58,11 @@ export default function AboutUs() {
                     <div className="right-person-description">
                         <h3>Saisree Kona</h3>
                         <h5>Vice-President of External Relations</h5>
-                        <p>Saisree is currently a Sophomore from Banglore India, double majoring in Marketing and Informatics. 
+                        <p>Saisree is a rising senior from Banglore India, double majoring in Marketing and Informatics. 
                         She hopes to go into consulting and start her own business. </p>
                     </div>
                     <div className="right-person-pic" id='vp-marketing-picture'>
-                        <a href='https://www.linkedin.com/in/jiyagupta12/ ' target='_blank'><img src='/images/saisree-headshot.jpeg' alt='vp-marketing-picture' /></a>
+                        <a href='https://www.linkedin.com/in/saisreekona/ ' target='_blank'><img src='/images/saisree-headshot.jpeg' alt='vp-marketing-picture' /></a>
                     </div>
                 </div>
             </div>
@@ -79,7 +78,7 @@ export default function AboutUs() {
                     <div className="left-person-description">
                         <h3>Swaraj Dhakar</h3>
                         <h5>President</h5>
-                        <p>Swaraj is currently a Sophomore studying Business and Management. He hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
+                        <p>Swaraj is currently a rising junior studying Business and Management. He hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
                             which specializes in cows and laptops.
                         </p>
                     </div>
@@ -93,7 +92,7 @@ export default function AboutUs() {
                         <h3>Pranav Vangari</h3>
                         <h5>Vice-President of Technology</h5>
                         <p>
-                            Pranav is currently a Sophomore studying Business and Management. He hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
+                            Pranav is rising junior studying Business and Management. He hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
                             which specializes in cows and laptops.
                         </p>
                     </div>
@@ -106,8 +105,7 @@ export default function AboutUs() {
                     <div className="left-person-description">
                         <h3>Saachi Patil</h3>
                         <h5>Vice-President of Finance</h5>
-                        <p>Swaraj is currently a Sophomore studying Business and Management. He hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
-                            which specializes in cows and laptops.
+                        <p>Saachi is a rising junior from New Jersey majoring in Finance and Business Analytics. She hopes to work in investment banking and eventually start her own business.
                         </p>
                     </div>
                     
@@ -120,7 +118,7 @@ export default function AboutUs() {
                     <div className="left-person-description">
                         <h3>Saisree Kona</h3>
                         <h5>Vice-President of External Relations</h5>
-                        <p>Saisree is currently a Sophomore studying Business and Management. She hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
+                        <p>Saisree is a rising junior studying Business and Management. She hopes to learn about Business in Kelley and apply what he has learned to his own business in Indian
                             which specializes in cows and laptops.
                         </p>
                     </div>

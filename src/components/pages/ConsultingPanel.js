@@ -12,8 +12,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 function ConsultingPanel() {
   return (
     <div className='social-event-container'>
-        <h1>hi</h1>
-        </div>
+        <h1>coming soon!</h1>
+    </div>
   )
 }
 
