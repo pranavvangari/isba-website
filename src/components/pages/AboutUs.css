@@ -193,7 +193,17 @@ a {
     margin-bottom: 75px;
   }
 
+  #president-container .left-person-description h3 {
+    font-size: 49px;
+    text-align: center;
+  }
+
   #vp-tech-container .left-person-description h3 {
+    font-size: 49px;
+    text-align: center;
+  }
+
+  #vp-operations-container .left-person-description h3 {
     font-size: 49px;
     text-align: center;
   }
@@ -208,7 +218,6 @@ a {
     text-align: center;
   }
   #vp-marketing-container .left-person-description h5 {
-    
     text-align: center;
   }
 
@@ -226,6 +235,8 @@ a {
     font-weight: 600;
     margin-top: 5%;
   }
+
+  
 
 
 }

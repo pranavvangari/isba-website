@@ -10,7 +10,7 @@ function HeroSection() {
         <div className='hero-container'>
             {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
             <h1 className='hero-main-title'>INDIAN STUDENT BUSINESS ASSOCIATION</h1>
-            <p>Indiana University Bloomington</p>
+            <p>At The Kelley School of Business</p>
             <div className='hero-btns'>
                 {/* <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                     GET STARTED

@@ -1,0 +1,44 @@
+/* Keep the carousel centered and smaller */
+.gallery-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-container {
+    width: min(560px, 90vw);    /* make it smaller; tweak 560px */
+    margin-inline: auto;
+  }
+  
+  /* Let slides grow to their natural image height */
+  .isba-carousel .carousel,
+  .isba-carousel .slider-wrapper,
+  .isba-carousel .slider,
+  .isba-carousel .slide {
+    height: auto !important;    /* undo any previous 100% heights/aspect-ratio */
+  }
+  
+  /* Show the ENTIRE image without cropping */
+  .isba-carousel .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;        /* optional letterbox background */
+  }
+  
+  .isba-carousel .slide img {
+    width: 100%;                /* scale to container width */
+    height: auto;               /* keep natural aspect ratio */
+    object-fit: contain;        /* never crop */
+    max-height: 70vh;           /* prevent super-tall images from overflowing */
+    border-radius: 12px;
+  }
+  
+  /* Optional: even smaller on phones */
+  @media (max-width: 600px) {
+    .carousel-container { width: min(480px, 94vw); }
+  }
+  
+h1 {
+    font-size: 36px;
+}
+  

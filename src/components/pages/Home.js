@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Navbar from '../Navbar';
 import Values from '../Values';
+import Gallery from '../Gallery';
 
 
 function Home () {
@@ -11,7 +12,9 @@ function Home () {
         <>
             <HeroSection/>
             <Cards/>
+            <Gallery />
             <Values />
+            
         </>
     )
 }

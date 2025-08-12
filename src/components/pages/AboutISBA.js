@@ -16,7 +16,7 @@ function AboutISBA() {
 
             <div className='pic-text-container'>
                 <div className='pic-1'>
-                    <img src='images/ExecPic1.jpg' alt='pic-1' />
+                    <img src='images/isba-new-member-pic-sp25-2.jpg' alt='pic-1' />
                 </div>
                 <div className='text-container'>
                     <h2 className='para-header'>How did ISBA start?</h2>
@@ -25,6 +25,20 @@ function AboutISBA() {
                         international student body, however, unlike other ethnic business clubs, there was no Indian business club. With this in mind,
                         Swaraj Dhakar started ISBA at Indiana University in hopes of uniting students on campus with their ethnicty as Indian and interest in business.
                         
+                    </p> 
+                </div>
+                
+            </div>
+
+            <div className='pic-text-container'>
+                <div className='pic-1'>
+                    <img src='images/isba-award.jpg' alt='pic-1' />
+                </div>
+                <div className='text-container'>
+                    <h2 className='para-header'>Kelley Distinction Award</h2>
+                    <p className='pic-1-para'>
+                        In the Spring of 2025, just one semester after ISBA started, ISBA was honored with the Kelley Distinction and was given the DEIJB Excellence Award among 60+ Kelley organizations. 
+                        This award was only given to one organization that best exemplified diversity, equity, inclusion, justice, and belonging within the Kelley School of Business. We are extremely proud of this accomplishment and are excited for what the future holds for ISBA.
                     </p> 
                 </div>
                 
