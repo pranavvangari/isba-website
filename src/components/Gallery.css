@@ -1,44 +1,39 @@
-/* Keep the carousel centered and smaller */
-.gallery-content {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .carousel-container {
-    width: min(560px, 90vw);    /* make it smaller; tweak 560px */
-    margin-inline: auto;
-  }
-  
-  /* Let slides grow to their natural image height */
-  .isba-carousel .carousel,
-  .isba-carousel .slider-wrapper,
-  .isba-carousel .slider,
-  .isba-carousel .slide {
-    height: auto !important;    /* undo any previous 100% heights/aspect-ratio */
-  }
-  
-  /* Show the ENTIRE image without cropping */
-  .isba-carousel .slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f7f7f7;        /* optional letterbox background */
-  }
-  
-  .isba-carousel .slide img {
-    width: 100%;                /* scale to container width */
-    height: auto;               /* keep natural aspect ratio */
-    object-fit: contain;        /* never crop */
-    max-height: 70vh;           /* prevent super-tall images from overflowing */
-    border-radius: 12px;
-  }
-  
-  /* Optional: even smaller on phones */
-  @media (max-width: 600px) {
-    .carousel-container { width: min(480px, 94vw); }
-  }
-  
-h1 {
-    font-size: 36px;
+/* --- smaller carousel --- */
+.carousel-container {
+  width: min(420px, 82vw);   /* ↓ shrink here; try 380px or 360px if you want tiny */
+  margin-inline: auto;
 }
-  
+
+/* keep natural aspect ratio & shrink height cap */
+.isba-carousel .carousel,
+.isba-carousel .slider-wrapper,
+.isba-carousel .slider,
+.isba-carousel .slide {
+  height: auto !important;
+}
+
+.isba-carousel .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+}
+
+.isba-carousel .slide img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;        /* no cropping */
+  max-height: 400px;          /* ↓ lower this to make it shorter */
+  border-radius: 12px;
+}
+
+/* make dots a bit smaller (optional) */
+.isba-carousel .control-dots {
+  transform: scale(.9);
+}
+
+/* phones: still smaller */
+@media (max-width: 600px) {
+  .carousel-container { width: min(92vw, 380px); }
+  .isba-carousel .slide img { max-height: 55vh; }
+}

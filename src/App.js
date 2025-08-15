@@ -10,6 +10,7 @@ import EYEvent from './components/pages/EYEvent';
 import ResumeWorkshopOctEight from './components/pages/ResumeWorkshopOctEight';
 import Footer from './components/Footer';
 import ConsultingPanel from './components/pages/ConsultingPanel';
+import Resources from './components/pages/Resources';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' exact Component={Home}/>
           <Route path='/SocialEvent' Component={SocialEvent}></Route>
           <Route path='/AboutUs' Component={AboutUs}></Route>
+          <Route path='/Resources' Component={Resources}></Route>
           <Route path='/AboutISBA' Component={AboutISBA}></Route>
           <Route path='/EYEvent' Component={EYEvent}></Route>
           <Route path='/ResumeWorkshopOctEight' Component={ResumeWorkshopOctEight}></Route>

@@ -11,7 +11,7 @@ body {
     text-align: center;
     padding: 50px;
     background-color: #f0e6e0;
-    border-top: dotted #473324 1px;
+    border-top: solid #473324 1px;
     border-bottom: solid #473324 1px;
 }
 
